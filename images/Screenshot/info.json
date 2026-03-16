@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 52,
+    "height" : 31
+  }, {
+    "width" : 104,
+    "height" : 62
+  }, {
+    "width" : 207,
+    "height" : 124
+  }, {
+    "width" : 413,
+    "height" : 248
+  }, {
+    "width" : 825,
+    "height" : 496
+  }, {
+    "width" : 1650,
+    "height" : 992
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 1650,
+  "@id" : "https://patakikatalin.github.io/Kati/images/Screenshot",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 992
+}

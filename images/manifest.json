@@ -7,5 +7,87 @@
             "All images loaded in patakikatalin/Kati project"
         ]
     },
-    "items": []
+    "items": [
+        {
+            "id": "https://patakikatalin.github.io/Kati/images/Screenshot/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Screenshot"
+                ]
+            },
+            "height": 992,
+            "width": 1650,
+            "items": [
+                {
+                    "id": "https://patakikatalin.github.io/Kati/images/Screenshot/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://patakikatalin.github.io/Kati/images/Screenshot/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://patakikatalin.github.io/Kati/images/Screenshot/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 52,
+                                                "height": 31
+                                            },
+                                            {
+                                                "width": 104,
+                                                "height": 62
+                                            },
+                                            {
+                                                "width": 207,
+                                                "height": 124
+                                            },
+                                            {
+                                                "width": 413,
+                                                "height": 248
+                                            },
+                                            {
+                                                "width": 825,
+                                                "height": 496
+                                            },
+                                            {
+                                                "width": 1650,
+                                                "height": 992
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 1650,
+                                        "@id": "https://patakikatalin.github.io/Kati/images/Screenshot",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 992,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://patakikatalin.github.io/Kati/images/Screenshot/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
